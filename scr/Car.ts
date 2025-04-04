@@ -9,7 +9,7 @@ export class Car extends Vehicle {
     }
 
     startEngine(): void {
-        console.log(`🚗 Автомобиль ${this.getInfo()} заводится...`);
+        console.log(`🚗 Automobile ${this.getInfo()} starts...`);
     }
 
     getPassengers(): number {
