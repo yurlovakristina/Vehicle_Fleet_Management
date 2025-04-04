@@ -5,11 +5,11 @@ export class Garage {
 
     addVehicle(vehicle: Vehicle): void {
         this.vehicles.push(vehicle);
-        console.log(`✅ Добавлено: ${vehicle.getInfo()}`);
+        console.log(`✅ Added: ${vehicle.getInfo()}`);
     }
 
     listVehicles(): void {
-        console.log("📋 Список транспорта в гараже:");
+        console.log("📋 List of vehicles in the garage:");
         this.vehicles.forEach(v => console.log(` - ${v.getInfo()}`));
     }
 }
