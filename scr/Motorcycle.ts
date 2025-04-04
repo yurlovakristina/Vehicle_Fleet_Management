@@ -9,7 +9,7 @@ export class Motorcycle extends Vehicle {
     }
 
     startEngine(): void {
-        console.log(`🏍️ Мотоцикл ${this.getInfo()} ревет мотором...`);
+        console.log(`🏍️ Motorbike ${this.getInfo()} engine roars...`);
     }
 
     hasSideCar(): boolean {
