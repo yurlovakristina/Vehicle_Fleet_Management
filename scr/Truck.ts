@@ -1,7 +1,7 @@
 import { Vehicle } from "./Vehicle";
 
 export class Truck extends Vehicle {
-    private cargoCapacity: number;  // Вместимость груза в кг
+    private cargoCapacity: number;  
 
     constructor(brand: string, model: string, year: number, cargoCapacity: number) {
         super(brand, model, year);
@@ -9,7 +9,7 @@ export class Truck extends Vehicle {
     }
 
     startEngine(): void {
-        console.log(`🚛 Грузовик ${this.getInfo()} запускает двигатель...`);
+        console.log(`🚛 Truck ${this.getInfo()} starts the engine...`);
     }
 
     getCargoCapacity(): number {
